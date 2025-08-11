@@ -25,6 +25,6 @@ This repository aims to consolidate learning through constant practice. It serve
 
 # Team
 
- | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/202474042?s=400&u=a642f24f6cd43cb635e42bd9a9c57a9099ffb54a&v=4" width=115><br><sub> Thiago Fabri </sub>](https://github.com/TllFabri) |   |
-| :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/222240928?v=4" width="115"><br><sub>Thiago Fabri</sub>](https://github.com/TllFabri) |
+| :---: |
 
