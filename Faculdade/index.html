@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Thiago Fabri | My page</title>
+    <title>Thiago Fabri | My Page</title>
     <link rel="icon" href="Icon.png">
 </head>
-
 <body>
-    <h1>Hello Word!🌎</h1>
-    <hr>
-    <h2>About me😁</h2>
-    <hr>
-    <p>My name is Thiago Fabri</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">Thiago Fabri</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <a href="  ">
-        <button>Clique aqui</button>
-    </a>
+    <header>
+        <h1>Hello World! 🌎</h1>
+    </header>
 
-    <img src="Zaptos.png" alt="Zaptos" width="250" height="200">
-    <img src="Moltres.png" alt="Moltres" width="250" height="200">
-    <img src="Articuno.png" alt="Articuno" width="250" height="200">
-    <hr>
+    <main>
+        <section id="about" class="about">
+            <h2>About Me 😁</h2>
+            <p>My name is <strong>Thiago Fabri</strong>.</p>
+            <a href="#">
+                <button>Clique aqui</button>
+            </a>
+        </section>
 
-    <p>
-    <h2>Contact Me😄</h2>
-    <a href="">⚫My Instagram</a><br>
-    <a href="">🟡My Linkehin</a><br>
-    <a href="">⚫My Github</a><br>
-    </p>
-    <hr>
+        <section id="gallery" class="gallery">
+            <h2>My Pokémon 🐉</h2>
+            <div class="images">
+                <img src="Zaptos.png" alt="Zapdos Pokémon">
+                <img src="Moltres.png" alt="Moltres Pokémon">
+                <img src="Articuno.png" alt="Articuno Pokémon">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me 😄</h2>
+            <ul>
+                <li><a href="#">⚫ My Instagram</a></li>
+                <li><a href="#">🟡 My LinkedIn</a></li>
+                <li><a href="#">⚫ My Github</a></li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2025 My Page</p>
+        <p>&copy; 2025 My Page | Thiago Fabri</p>
     </footer>
-
 </body>
-
 </html>
